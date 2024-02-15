@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bienvenidos a Dany_nails24: Tu Destino para el Arte de las Uñas</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <h1>¡Explora el Arte de las Uñas con <span class="marca">Dany_nails24</span>!</h1>
+    </header>
+
+    <a href="#" target="_blank"><img src="fondo.jpg" alt="Facebook"></a>
+    
+    <nav>
+        <ul>
+            <li><a href="#intro">Inicio</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#tipos_de_uñas">Tipos de Uñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <article>
+        <section id="intro">
+            <h2>Transforma tus Uñas con Soft Gel y Semi Permanente</h2>
+            <p>Bienvenidos a Dany_nails24, donde el arte de las uñas cobra vida. En este mundo de creatividad y elegancia, me especializo en la creación de uñas de soft gel y uñas semi permanente, dos técnicas innovadoras que pueden transformar tus manos y añadir un toque de estilo a tu apariencia.</p>
+            <p>Las uñas de soft gel son una opción versátil y duradera que ofrece un aspecto natural y elegante. Con mi experiencia y habilidades, puedo crear diseños únicos y personalizados que se adaptan a tu estilo y personalidad.</p>
+            <p>Las uñas semi permanente, por otro lado, son ideales para aquellos que desean un acabado duradero y de aspecto impecable. Esta técnica implica el uso de esmaltes de gel de alta calidad que se curan bajo una lámpara LED o UV, creando un acabado brillante y duradero que puede durar semanas sin necesidad de retoques.</p>
+            <p>Ambas técnicas son realizadas por manos expertas para garantizar resultados excepcionales que te harán lucir tus uñas con confianza y estilo. ¡Déjame sorprenderte con mi creatividad y habilidades y llevemos tus uñas al siguiente nivel juntos!</p>
+        </section>
+    
+        <section id="cursos">
+            <h2>¡Descubre Nuestros Cursos!</h2>
+            <p>¿Quieres aprender a hacer uñas de forma profesional? ¡Has llegado al lugar indicado! En Dany_nails24 ofrecemos un curso completo de uñas donde aprenderás todas las técnicas necesarias para convertirte en un experto en el arte de las uñas.</p>
+            <p>Nuestro curso de uñas incluye:</p>
+            <ul>
+                <li>Aprender a trabajar con soft gel y esmalte semipermanente.</li>
+                <li>Técnicas avanzadas de manicura y pedicura.</li>
+                <li>Diseños creativos y personalizados para cada ocasión.</li>
+                <li>Conocimientos sobre cuidado y mantenimiento de uñas.</li>
+            </ul>
+            <p>No importa si eres principiante o si ya tienes experiencia en el mundo de las uñas, nuestro curso está diseñado para adaptarse a tus necesidades y llevarte al siguiente nivel. ¡No pierdas la oportunidad de convertir tu pasión por las uñas en una carrera exitosa!</p>
+        </section>
+
+        <section id="tipos_de_uñas">
+            <h2>Tipos de Uñas</h2>
+            <p>Descubre los diferentes tipos de uñas y cómo se hacen:</p>
+            <ul>
+                <li>Uñas de Soft Gel: Esta técnica implica aplicar una capa de gel flexible sobre la uña natural o extensión para crear una base duradera y resistente. El gel se cura bajo una lámpara LED o UV para endurecerlo y luego se moldea y se da forma según el estilo deseado.</li>
+                <li>Uñas Semi Permanente: Consiste en aplicar esmaltes de gel de alta calidad que se curan bajo una lámpara LED o UV para crear un acabado duradero y brillante. Después de cada capa de esmalte, se cura bajo la lámpara para garantizar un acabado impecable y duradero.</li>
+            </ul>
+        </section>
+    </article>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Contáctame para obtener más información sobre mis servicios o para reservar una cita!</p>
+        <ul>
+            <li>Correo electrónico: info@tucorreo.com</li>
+            <li>WhatsApp: <a href="https://wa.me/tunumerodetelefono" target="_blank">Contáctame ahora</a></li>
+        </ul>
+        <div class="redes_sociales">
+            <a href="https://facebook.com/tufacebook" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com/tuinstagram" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/tutwitter" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+        
+        </div>
+    </section>
+
+    <footer>
+        <p>Derechos de autor &copy; 2024 TuNombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+

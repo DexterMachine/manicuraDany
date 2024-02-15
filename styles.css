@@ -1,0 +1,110 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center; /* Centro el texto horizontalmente */
+    background-image: url(fondo.jpg); /* Agrega la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+
+header {
+    padding: 20px;
+    color: #fff; /* Cambio el color del texto a blanco */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto; /* Centro el menú horizontalmente */
+    padding: 0;
+    max-width: 600px; /* Limito el ancho del menú */
+    display: flex;
+    justify-content: center; /* Centro los elementos del menú horizontalmente */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+article {
+    padding: 20px;
+    margin: 0 auto; /* Centro el artículo horizontalmente */
+    max-width: 600px; /* Limito el ancho del artículo */
+    text-align: justify; /* Justifico el texto */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+h1 .marca {
+    color: #ffc107; /* Cambio de color para destacar la marca */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+    letter-spacing: -1px; /* Ajusta el espaciado entre letras */
+    
+    
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px; /* Agrego espacio superior */
+}
+
+.redes_sociales {
+    margin-top: 20px;
+}
+
+.redes_sociales a {
+    margin-right: 10px;
+}
+
+/* Estilos para subtítulos "Soft Gel" y "Semi Permanente" */
+.subtitulo_destacado {
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    color: #ffc107; /* Cambio de color */
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+
+
+

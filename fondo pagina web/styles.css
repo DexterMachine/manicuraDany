@@ -1,0 +1,130 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center; /* Centro el texto horizontalmente */
+    background-image: url(julee-juu-HnhhJAat9Eg-unsplash.jpg); /* Agrega la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+#contacto {
+    padding: 20px; /* Agrega espaciado interno */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo blanco semitransparente */
+    margin: 0 auto; /* Centro la sección horizontalmente */
+    max-width: 600px; /* Limita el ancho de la sección */
+    margin-bottom: 80px; /* Ajusta el margen inferior para dejar espacio para el pie de página */
+    border-radius: 0;
+    border-bottom-left-radius: 10px; /* Bordes redondeados solo en la esquina inferior izquierda */
+    border-bottom-right-radius: 10px; /* Bordes redondeados solo en la esquina inferior derecha */
+}
+#contacto ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+}
+#contacto ul li {
+    margin-bottom: 10px;
+}
+#tipos_de_uñas {
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+header {
+    padding: 20px;
+    color: #222; /* Cambio el color del texto a un tono de gris oscuro */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 auto; /* Centro el menú horizontalmente */
+    padding: 0;
+    max-width: 600px; /* Limito el ancho del menú */
+    display: flex;
+    justify-content: center; /* Centro los elementos del menú horizontalmente */
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+article {
+    padding: 20px;
+    margin: 0 auto; /* Centro el artículo horizontalmente */
+    max-width: 600px; /* Limito el ancho del artículo */
+    text-align: justify; /* Justifico el texto */
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo blanco semitransparente */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    margin-bottom: 0; /* Aumenta el margen inferior para separarlo del footer */
+    border-bottom-left-radius: 0; /* Elimino el borde redondeado en la esquina inferior izquierda */
+    border-bottom-right-radius: 0; /* Elimino el borde redondeado en la esquina inferior derecha */
+}
+section {
+    margin-bottom: 30px;
+    border: 2px solid #ccc; /* Borde gris */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+}
+section h2 {
+    color: #ff6ec7; /* Color rosa */
+}
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+h1 .marca {
+    color: #ffc107; /* Cambio de color para destacar la marca */
+}
+h1,
+h2 {
+    font-family: Arial, sans-serif;
+    color: #222; /* Cambio de color del título a un tono de gris oscuro */
+}
+h2 {
+    margin-top: 30px;
+    letter-spacing: -1px; /* Ajusta el espaciado entre letras */
+}
+p {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espaciado entre párrafos */
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px; /* Reducir el padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+footer p {
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+    margin: 5px 0; /* Ajustar el margen interior */
+}
+.redes_sociales {
+    margin-top: 20px;
+}
+.redes_sociales a {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease; /* Cambio suave durante la transición */
+}
+.redes_sociales a:hover {
+    background-color: #ff6ec7; /* Cambio de color al pasar el cursor */
+    color: white;
+}
